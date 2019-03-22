@@ -1,0 +1,88 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* --- Common Styles ---*/
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* --- Header --- */
+
+header {
+    height: 64px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+header a {
+    color: white;
+}
+
+.header-logo {
+    float: left;
+    padding-left: 20px;
+    color: white;
+    font-size: 22px;
+    line-height: 64px;
+}
+
+.header-menus {
+    float: right;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 64px;
+}
+
+
+/* --- Top Styles --- */
+.top-main {
+    padding: 200px 0 100px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    color: white;
+    //background-color: orangered;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/laptop.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.top-message {
+    position: relative;
+}
+
+.top-main h2 {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 20px;
+}
+
+.top-main p {
+    font-size: 24px;
+}
+

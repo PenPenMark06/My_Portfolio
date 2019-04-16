@@ -1,0 +1,182 @@
+/* --- Body --- */
+body {
+    background-color: #FCFCFF;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.non-top-container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* --- Header --- */
+
+non-top-header {
+    height: 64px;
+    position: absolute;
+    background-color: #282828;
+    z-index: 1;
+    width: 100%;
+}
+
+non-top-header a {
+    color: white;
+}
+
+.non-top-header-logo {
+    float: left;
+    padding-left: 20px;
+    color: white;
+    font-size: 22px;
+    line-height: 64px;
+}
+
+.non-top-header-menus {
+    float: right;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 64px;
+}
+
+/* --- Profile --- */
+
+.profile {
+  width: 1170px;
+  padding: 100px 0px;
+  position: absolute;
+  margin: 0px 0;
+}
+
+.life-motto {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color: #282828;
+}
+
+.profile-header {
+    text-align: center;
+    font-family: serif;
+    font-size: 60px;
+    color: #282828;
+}
+
+
+
+/* --- profile --- */
+
+.about-top {
+    margin: 75px 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+.mypic {
+    background-image: url(/profile.jpeg);
+    background-size: cover;
+    float: left;
+    width: 400px;
+    height: 600px;
+}
+
+.info {
+    float: left;
+    padding-left: 100px;
+    
+}
+
+.biography {
+    color: black;
+}
+
+
+.biography li {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+/* --- Education --- */
+
+.education {
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.education-header {
+    font-size: 50px;
+    text-align: center;
+}
+
+.history {
+    width: 100%;
+    padding: 20px 0 25px 20px;
+}
+
+.schools {
+    width: 100%;
+    height: auto;
+}
+
+.schools li {
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+/* --- Achievements --- */
+
+.achievements {
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.achieve-header {
+    font-size: 50px;
+    text-align: center;
+}
+
+.awards {
+    padding: 20px 0 25px 20px;
+    width: 100%;
+}
+
+.awards li {
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
